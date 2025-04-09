@@ -1,7 +1,7 @@
 module jni
 
 type Void = bool
-type Type = JavaClass
+pub type Type = JavaClass
 	| JavaObject
 	| Void
 	| bool
